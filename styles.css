@@ -1,0 +1,48 @@
+.navbar{
+    border-top: 5px black solid;
+    border-bottom: 5px black solid;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar li{
+    list-style: none;
+    font-size: larger;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+.maincontainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+p{
+    border: 2px black solid;
+    margin: 3px;
+}
+
+.Demoform{ 
+    display: flex;
+    justify-content: center;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+li{
+    list-style: none;
+    font-size: larger;
+}
+
+.pics{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
